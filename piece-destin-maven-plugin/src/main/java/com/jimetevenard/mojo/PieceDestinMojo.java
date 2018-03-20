@@ -12,7 +12,7 @@ public class PieceDestinMojo extends AbstractMojo{
 		if(Math.random() > 0.5 ){
 			getLog().info("Ca build, va au resto poto !");
 		} else {
-			MojoFailureException ex = new MojoFailureException("Pas de chance ! Plat végé au micro-ondes");
+			MojoFailureException ex = new MojoFailureException("Pas de chance ! Tu es bon pour un plat vegan au micro-ondes");
 			getLog().error(ex);
 			throw ex;
 		}		
